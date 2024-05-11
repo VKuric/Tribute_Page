@@ -1,0 +1,70 @@
+body {
+    padding-top: 4em;
+  }
+  
+  .main-text-div {
+    background-color: #EEEEEE;
+    width: 1140px;
+    padding: 3.5em 5em 3em 5em;
+    margin: auto;
+  }
+  
+  .main-img-div {
+    background-color: white;
+    padding: 2px 0.3em 0px 0.3em;
+    border-color: #DDDDDD;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+  }
+  
+  .title {
+    font-size: 450%;  
+  }
+  
+  .subtitle {
+    font-style: italic;
+  }
+  
+  .img-caption {
+    padding: 1em;
+  }
+  
+  .timeline {
+    width: 65%;
+    padding-top: 1em;
+    margin: auto;
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+  }
+  
+  .quotation {
+      padding: 2em 2em 0em 2em;
+  }
+  
+  .quotation-text {
+    font-size: 145%;
+  }
+  
+  .quotation-author {
+    font-size: 110%;
+    font-style: italic;
+    color: #777777;
+    padding: 1em 0em 1em 0em;
+  }
+  
+  /* After some wasted time, I decided to look at the original code and steal the Unicode code for the bar...;-) */
+  .quotation-author:before {
+    content: "\2014 \00A0 ";
+  }
+  
+  .final-words {
+    line-height: 1.1em;
+    font-size: 1.7em;
+  }
+  
+  .signature {
+    padding: 3em 0em 1em 0em;
+  }
